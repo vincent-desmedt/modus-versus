@@ -1,0 +1,17 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_slider.scss - Non-cosmetic styles for slider
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.focus{
+
+    &__callout {
+        position: absolute;
+        top: 2.4rem;
+        right: 3rem;
+        min-width: 20rem;
+    }
+}

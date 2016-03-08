@@ -1,0 +1,25 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_slider.scss - Non-cosmetic styles for slider
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.why-col{
+    display: inline-block;
+    width: 272px;
+
+    &__heading{
+        margin-bottom: 1.5rem;
+    }
+
+
+    &:first-of-type{
+        float: left;
+    }
+
+    &:last-of-type{
+        float: right;
+    }
+}

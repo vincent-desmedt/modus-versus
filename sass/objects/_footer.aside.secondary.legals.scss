@@ -1,0 +1,22 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_header.scss - Non-cosmetic styles for header
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+
+// .legals{
+//     display: inline-block;
+//     // text-align: center;
+//     width: $containerWidth;
+//     transform: translateX( - 34rem / 2 );
+// }
+
+.legals{
+    position: relative;
+    top: 2.1rem;
+    width: 1170px;
+    margin: 0 auto;
+}

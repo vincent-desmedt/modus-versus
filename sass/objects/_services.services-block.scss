@@ -1,0 +1,20 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_slider.scss - Non-cosmetic styles for slider
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.services-block{
+    position: relative;
+    display: block;
+    min-height: 31.5rem;
+
+    &__fake-button{
+        position: absolute;
+        left: 3.5rem;
+        right: 3.5rem;
+        display: block;
+    }
+}

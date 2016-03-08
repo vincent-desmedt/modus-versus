@@ -1,0 +1,19 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_header.scss - Non-cosmetic styles for header
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.contact-infos-contact{
+    margin-top: 3.5rem;
+
+    &__way{
+        float: left;
+    }
+
+    &__way + &__data,&__data + &__way{
+        margin-top: .5rem,
+    }
+}

@@ -1,0 +1,78 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_topbar.scss - Design styles for topbar
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.services-block{
+    background: #f8f8f8 none repeat scroll 0 0;
+    border-radius: 0.4rem;
+    padding: 5rem 2rem 4.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out 0s;
+    font: 1.3rem/1.5 "OpenSans";
+
+    &:hover{
+        background-color: white;
+    }
+
+    &:hover &__heading--icon-thumb::before,&:hover &__heading--icon-key::before,&:hover &__heading--icon-flag::before,&:hover &__heading--icon-flask::before{
+        color: #e8645a;
+    }
+
+    &__heading--icon-thumb::before,&__heading--icon-key::before,&__heading--icon-flag::before,&__heading--icon-flask::before{
+        content: "";
+        color: #62bdbd;
+        display: block;
+        font: 6rem/1 $glyphs;
+        margin-bottom: 2rem;
+        -webkit-transition: all .25s ease-in-out;
+	    -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+    }
+
+    &__heading--icon-key::before{
+        content: "";
+    }
+
+    &__heading--icon-flag::before{
+        content: "";
+    }
+
+    &__heading--icon-flask::before{
+        content: "";
+    }
+
+    &__heading--icon-thumb,&__heading--icon-key,&__heading--icon-flag,&__heading--icon-flask{
+        color: #7f8c8c;
+        font-weight: bold;
+    }
+
+    &__paragraph{
+        color: #777;
+    }
+
+    &__fake-button{
+        background: #62a29a none repeat scroll 0 0;
+        border-radius: 0.4rem;
+        bottom: 0;
+        box-shadow: 0 0.3em 0 0 #528b86;
+        color: #fff;
+        font: 600 1.4rem/1 "OpenSans";
+        padding: 1.8rem 0.8rem;
+        text-align: center;
+        text-decoration: none;
+        transform: translateY(50%);
+        -webkit-transition: all .25s ease-in-out;
+	    -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+    }
+}

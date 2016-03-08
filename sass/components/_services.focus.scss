@@ -1,0 +1,32 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_topbar.scss - Design styles for topbar
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.focus{
+    margin: 0 auto 5rem;
+    padding: 2.4rem 28rem 2.4rem 3rem;
+    background: #ececec none repeat scroll 0 0;
+    border-radius: 0.4rem;
+    position: relative;
+
+    &__heading{
+        font: 600 3rem/1.2 "OpenSans";
+        margin-bottom: 1rem;
+    }
+
+    &__callout{
+        background: #e8645a none repeat scroll 0 0;
+        border-radius: 0.4rem;
+        box-shadow: 0 0.3em 0 0 #e2534b;
+        color: #fff;
+        font: 600 1.3rem/1 "OpenSans";
+        padding: 1.8rem 0.8rem;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,18 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_topbar.scss - Design styles for topbar
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.contact-infos-contact{
+    &__link{
+        margin-left: 2rem;
+        color: $menuTextColor;
+        text-decoration: none;
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: bold;
+    }
+}

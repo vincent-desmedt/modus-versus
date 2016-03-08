@@ -1,0 +1,23 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_topbar.scss - Design styles for topbar
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.why-col{
+    vertical-align: top;
+    font-size: 1.3rem;
+    text-align: left;
+
+    &__heading{
+        font-weight: bold;
+    }
+
+    &__blockquote{
+        background-color: white;
+        padding: 15px;
+        font-style: italic;
+    }
+}

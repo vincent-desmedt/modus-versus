@@ -19,10 +19,60 @@
         content: " ";
         position: relative;
         z-index: 0;
-        top: -8px;
+        top: -0.8rem;
 	    display: block;
-        border: 1px solid #777777;
-        width: 1000px;
-        margin-left: 170px;
+        border: 0.1rem solid $headingTextColor;
+        width: 95rem;
+        margin-left: 17rem;
     }
+
+    &__list{
+        font-size: 0;
+    }
+
+    &__elt + &__elt{
+        margin-left: 5.4rem;
+    }
+
+    &__nav{
+        text-align: right;
+        position: relative;
+        top: -8.3rem;
+    }
+
+    &__client-previous{
+        font-size: 0;
+        text-decoration: none;
+        color: $mainBackgroundColor;
+        &::after{
+            display: inline-block;
+            width: 1.8rem;
+            height: 1.8rem;
+            content: "<";
+            font-size: 1rem;
+            line-height: 1.8rem;
+            text-align: center;
+            background-color: $headingTextColor;
+            border-radius: .4rem;
+        }
+    }
+
+    &__client-next{
+        margin-left: 0.3rem;
+        font-size: 0;
+        text-decoration: none;
+        color: $mainBackgroundColor;
+        &::after{
+            display: inline-block;
+            width: 1.8rem;
+            height: 1.8rem;
+            content: ">";
+            font-size: 1rem;
+            line-height: 1.8rem;
+            text-align: center;
+            background-color: $headingTextColor;
+            border-radius: .4rem;
+        }
+    }
+
 }

@@ -10,7 +10,7 @@
     text-align: right;
 
     &__link{
-        color:white;
+        color:$menuTextColor;
         text-decoration: none;
     }
 
@@ -28,7 +28,7 @@
     }
 
     &__elt a::before{
-        color: white;
+        color: $menuTextColor;
         font: 3rem "Glyphs";
     }
 

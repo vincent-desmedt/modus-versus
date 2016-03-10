@@ -30,7 +30,8 @@
 @import "objects/topbar.logo";
 @import "objects/topbar.main-nav";
 @import "objects/topbar.main-nav.search-form";
-@import "objects/slider";
+@import "objects/slider.slides";
+@import "objects/slider.slider-nav";
 @import "objects/services";
 @import "objects/services.focus";
 @import "objects/services.services-block";
@@ -42,7 +43,6 @@
 @import "objects/footer.contact-infos";
 @import "objects/footer.contact-infos-contact";
 @import "objects/footer.col-sitemap";
-@import "objects/footer.col-community";
 @import "objects/footer.col-blog-articles";
 @import "objects/footer.aside.secondary";
 @import "objects/footer.aside.secondary.legals";
@@ -53,6 +53,9 @@
 @import "components/topbar.logo";
 @import "components/topbar.main-nav";
 @import "components/topbar.main-nav.search-form";
+@import "components/slider.slides";
+@import "components/slider.slider-nav";
+@import "components/slider.slider-nav-dots";
 @import "components/services.focus";
 @import "components/services.services-block";
 @import "components/why";
@@ -67,14 +70,3 @@
 @import "components/footer.aside.secondary";
 @import "components/footer.aside.secondary.legals";
 @import "components/footer.aside.secondary.socials";
-
-// @import "components/services";
-
-// 7. Trumps - Styles spécifiques à un élément
-
-// ----- tmp
-// .wrapper {
-//     > main, > footer {
-//         display: none;
-//     }
-// }

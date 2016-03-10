@@ -16,8 +16,8 @@
     }
 
     &__blockquote{
-        background-color: white;
-        padding: 15px;
+        background-color: $menuTextColor;
+        padding: 1.5rem;
         font-style: italic;
     }
 }

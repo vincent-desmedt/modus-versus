@@ -1,0 +1,24 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_slider.scss - Non-cosmetic styles for slider
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+ .slider-nav{
+     &__slide-previous{
+         &::before{
+             position: absolute;
+             top: 30rem;
+         }
+
+     }
+     &__slide-next{
+         &::after{
+             position: absolute;
+             top: 30rem;
+             right: 0;
+         }
+     }
+ }

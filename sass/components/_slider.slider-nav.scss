@@ -1,0 +1,37 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_topbar.scss - Design styles for topbar
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+ .slider-nav{
+     &__slide-previous{
+         font-size: 0;
+         text-decoration: none;
+         color: white;
+         &::before{
+             font: 3rem $glyphs;
+             content: "";
+             padding: 2rem 1.2rem 2rem 0.6rem;
+             background-color: $focusColor;
+             border-radius: .4rem;
+             box-shadow: 0 0.3rem 0 0 #e2534b;
+         }
+
+     }
+     &__slide-next{
+         font-size: 0;
+         text-decoration: none;
+         color: white;
+         &::after{
+             font: 3rem $glyphs;
+             content: "";
+             padding: 2rem 0.6rem 2rem 1.2rem;
+             background-color: $focusColor;
+             border-radius: .4rem;
+             box-shadow: 0 0.3rem 0 0 #e2534b;
+         }
+     }
+ }

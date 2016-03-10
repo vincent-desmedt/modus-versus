@@ -1,0 +1,27 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_topbar.scss - Design styles for topbar
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+.slider-nav-dots{
+    text-align: center;
+    margin-top: 0.4rem;
+
+    & a{
+        font-size: 0;
+        display: inline-block;
+        width: 6rem;
+        height: .6rem;
+        background-color: $headingTextColor;
+    }
+
+    & a+a{
+        margin-left: .8rem;
+    }
+
+    .active{
+        background-color: $focusColor;
+    }
+}
